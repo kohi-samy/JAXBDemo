@@ -16,27 +16,26 @@ public class JAXBDemo {
 
         String xml = "<Subjects>\n" +
                 "    <Subject>\n" +
-                "        <Stream>STEM</Stream>\n" +
+                "        <stream>STEM</stream>\n" +
                 "        <name>Mathematics</name>\n" +
                 "    </Subject>\n" +
                 "    <Subject>\n" +
-                "        <Stream>STEM</Stream>\n" +
+                "        <stream>STEM</stream>\n" +
                 "        <name>Science</name>\n" +
                 "    </Subject>\n" +
                 "    <Subject>\n" +
-                "        <Stream>STEM</Stream>\n" +
+                "        <stream>STEM</stream>\n" +
                 "        <name>Technology</name>\n" +
                 "    </Subject>\n" +
                 "    <Subject>\n" +
-                "        <Stream>Art</Stream>\n" +
+                "        <stream>Art</stream>\n" +
                 "        <name>Music</name>\n" +
                 "    </Subject>\n" +
                 "    <Subject>\n" +
-                "        <Stream>Art</Stream>\n" +
+                "        <stream>Art</stream>\n" +
                 "        <name>Dance</name>\n" +
                 "    </Subject>\n" +
                 "</Subjects>";
-
 
         //initialize a java.io.Reader object with xml content
         StringReader reader = new StringReader(xml);
@@ -48,8 +47,8 @@ public class JAXBDemo {
         List<Subject> lstSubject = subjectData.getSubject();
         //iterate over object
         for (Subject e : lstSubject) {
-            System.out.println("Name : " + e.getName());
             System.out.println("Stream : " + e.getStream());
+            System.out.println("Name : " + e.getName());
             System.out.println("--------------------------");
         }
     }

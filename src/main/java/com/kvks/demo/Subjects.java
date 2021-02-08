@@ -6,6 +6,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement(name="Subjects")
 public class Subjects {
+
     private List<Subject> subject;
 
     @XmlElement(name="Subject")
