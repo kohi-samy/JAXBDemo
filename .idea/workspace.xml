@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99c58479-2444-4df2-b599-cb7a38f4630a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaFilePath.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subjects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+    <list default="true" id="24a3bc21-27f6-456b-b816-863dcee3cd5a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAXBDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JAXBDemo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaFilePath.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subjects.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kvks/demo/JAXBDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kvks/demo/JAXBDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kvks/demo/JAXBDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kvks/demo/Subject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kvks/demo/Subjects.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,15 +21,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-  </component>
-  <component name="ProjectId" id="1oDlEc8GJ8W4QvrhurBs6teJ84d" />
+  <component name="ProjectId" id="1oFGm724LTXcVghQuD4qjD7bgoE" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,18 +29,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.xslt" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\wasan\Documents\Project\demo\JavaFilePath" />
-    </key>
   </component>
   <component name="RunManager">
     <configuration name="JAXBDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kvks.demo.JAXBDemo" />
-      <module name="JavaFilePath" />
+      <module name="JAXBDemo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.kvks.demo.*" />
@@ -68,39 +53,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="99c58479-2444-4df2-b599-cb7a38f4630a" name="Default Changelist" comment="" />
-      <created>1612828932438</created>
+      <changelist id="24a3bc21-27f6-456b-b816-863dcee3cd5a" name="Default Changelist" comment="" />
+      <created>1612875083039</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1612828932438</updated>
+      <updated>1612875083039</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/kvks/demo/JAXBDemo.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>

@@ -1,8 +1,6 @@
 package com.kvks.demo;
 
 import java.io.*;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.List;
 
 import javax.xml.bind.JAXBContext;
@@ -13,12 +11,28 @@ public class JAXBDemo {
 
     public static void main(String[] args) throws IOException, JAXBException {
 
-        Path workingDir = Paths.get("").toAbsolutePath();
-        String strWorkingDir = workingDir.toString();
-
-        String xmlFP = strWorkingDir + "\\Subjects.xml";
-
-        String xml = getFileContent(xmlFP);
+        String xml = "<Subjects>\n" +
+                "    <Subject>\n" +
+                "        <stream>STEM</stream>\n" +
+                "        <name>Mathematics</name>\n" +
+                "    </Subject>\n" +
+                "    <Subject>\n" +
+                "        <stream>STEM</stream>\n" +
+                "        <name>Science</name>\n" +
+                "    </Subject>\n" +
+                "    <Subject>\n" +
+                "        <stream>STEM</stream>\n" +
+                "        <name>Technology</name>\n" +
+                "    </Subject>\n" +
+                "    <Subject>\n" +
+                "        <stream>Art</stream>\n" +
+                "        <name>Music</name>\n" +
+                "    </Subject>\n" +
+                "    <Subject>\n" +
+                "        <stream>Art</stream>\n" +
+                "        <name>Dance</name>\n" +
+                "    </Subject>\n" +
+                "</Subjects>";
 
         //initialize a java.io.Reader object with xml content
         StringReader reader = new StringReader(xml);
@@ -34,23 +48,5 @@ public class JAXBDemo {
             System.out.println("Name : " + e.getName());
             System.out.println("--------------------------");
         }
-    }
-
-    static String getFileContent(String filePath) {
-
-        StringBuilder stringBuilder = new StringBuilder();
-
-        try{
-        BufferedReader br = new BufferedReader(new FileReader(filePath));
-        String scurrentLine;
-        while((scurrentLine = br.readLine()) != null){
-            stringBuilder.append(scurrentLine).append("\n");
-        }
-        }catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return stringBuilder.toString();
     }
 }
